@@ -14,6 +14,7 @@ public class LoginPage {
 		localDriver =driver;
 		PageFactory.initElements(driver, this);
 	}
+
 	
 	@FindBy(name="user-name")
 	WebElement usernameText;
