@@ -3,9 +3,14 @@
 
 <suite name="CenturyLink">
 
+    <listeners>
+        <listener class-name="CenturyLink.utilities.reporting"/>
+    </listeners>
+
     <test name="LoginTest">
         <classes>
-            <class name="com.centurylink.testCases.LoginTest" />
+            <class name="com.qa.functionaltests.LoginTest"/>
+            <class name="com.qa.functionaltests.LoginTest_DataDriven"/>
         </classes>
     </test>
 </suite>
