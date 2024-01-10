@@ -3,3 +3,4 @@
 - Programming Language: Java
 - Web Library : Selenium
 - API Library : Rest Assured
+- Test Runner : TestNG
