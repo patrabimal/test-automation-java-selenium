@@ -1,4 +1,4 @@
-package com.qa.functionaltests;
+package com.qa.webtests;
 
 import com.qa.pages.LoginPage;
 import com.qa.pages.ProductBuyPage;

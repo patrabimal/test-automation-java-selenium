@@ -1,9 +1,8 @@
-package com.qa.restassured;
+package com.qa.restassuredexamples;
 
 import io.restassured.config.LogConfig;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
-import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
