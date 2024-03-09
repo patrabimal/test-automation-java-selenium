@@ -1,4 +1,4 @@
-package com.qa.functionaltests;
+package com.qa.webtests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

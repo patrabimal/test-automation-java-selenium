@@ -9,8 +9,8 @@
 
     <test name="LoginTest">
         <classes>
-            <class name="com.qa.functionaltests.LoginTest"/>
-            <class name="com.qa.functionaltests.LoginTest_DataDriven"/>
+            <class name="com.qa.webtests.LoginTest"/>
+            <class name="com.qa.webtests.LoginTest_DataDriven"/>
         </classes>
     </test>
 </suite>

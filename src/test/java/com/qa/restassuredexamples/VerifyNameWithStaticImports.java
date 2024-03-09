@@ -1,4 +1,4 @@
-package com.qa.restassured;
+package com.qa.restassuredexamples;
 
 import org.testng.annotations.Test;
 

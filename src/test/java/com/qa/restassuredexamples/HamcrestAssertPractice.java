@@ -1,6 +1,4 @@
-package com.qa.restassured;
-
-import io.restassured.response.Response;
+package com.qa.restassuredexamples;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;

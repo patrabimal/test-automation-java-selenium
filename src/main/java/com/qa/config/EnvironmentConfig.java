@@ -1,8 +1,8 @@
 package com.qa.config;
 
-import com.qa.utilities.FileReader;
-
 import java.util.Properties;
+
+import com.qa.utilities.FileReader;
 
 public class EnvironmentConfig {
     private EnvironmentConfig() {
@@ -20,8 +20,8 @@ public class EnvironmentConfig {
         }
     }
 
-    public static String getBaseURL() {
-        return environmentproperties.getProperty("baseUrl");
+    public static String getBaseURLWeb() {
+        return environmentproperties.getProperty("baseUrlWeb");
     }
 
     public static String getUserName() {
@@ -30,6 +30,24 @@ public class EnvironmentConfig {
 
     public static String getPassword() {
         return environmentproperties.getProperty("password");
+    }
+
+    public static String getBaseURLApi() {
+        return environmentproperties.getProperty("baseUrlApi");
+    }
+
+    public static String getApiKey() {
+        return environmentproperties.getProperty("apiKey");
+    }
+
+    public static String getBookingById() {
+        return environmentproperties.getProperty("getBookingById");
+    }
+
+    public static String getBooking() {return environmentproperties.getProperty("getBooking");}
+
+    public static String postCredential() {
+        return environmentproperties.getProperty("postCredential");
     }
 
 }
